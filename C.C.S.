@@ -1,0 +1,26 @@
+import time
+import sys
+player = input('Welcome to Celesta\'s Candy Shop, what\'s your name?')
+time.sleep(1)
+print('Well,', player ,'you may go pass')
+print('you go to the Gummies section')
+time.sleep(2)
+print('you sees three small packages of Orange Gummies shaped like cats, and dogs,')
+time.sleep(2)
+print('and on the other side is one large package of all these diffrent flaverd Gummies shaped like Dogs,Cats,Birds,Deers,Bears,Fish,Crabs,Zebras,Horses,Flowers,Roses,And Graifs,')
+time.sleep(2)
+buying = input('Do you get the diffrent flavered Gummies or the Orange Gummies')
+time.sleep(2)
+if buying == 'diffrent flavered':
+                print('Hurrah! You have now got the diffrent flavered Gummies')
+                print('You slowly drag your feet longing to get everything in the shop, but you remember that your mother told you that you can only get 1 big pack,or 2 small packs,or 3 tiny packs.')
+else:
+                print('you buy the Orange Gummies and go to the CheckOut, and quickly pay for the three packages and leave')
+
+##if stay == 'stay':
+##                print('You crouch down and doze off to sleep,soon you are awakened by a voice on a speacker,saying that  they were closing in about 10 mins')
+##                buying = input('do you go to the CheckOut or stay there')
+##print('<Work In Progrss>')
+print('TO BE COUNTINUED.')
+
+sys.exit()
